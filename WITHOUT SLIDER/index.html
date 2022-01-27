@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<title>ChefKun</title>
+</head>
+<link rel="stylesheet" type="text/css" href="chef.css">
+<body>
+
+	<!-- NAVBAR START -->
+
+	<section class="naav">
+				<a id="logo" href="">ChefKun</a>
+				<!-- <img src="logo.png" height="80px" width="80px"> -->
+
+	           <nav class="navbar">
+
+				<a id="active" href="">Home</a>
+				<a href="">Order</a>
+				<a href="">Dishes</a>
+				<a href="">About</a>
+				<a href="">Menu</a>
+				<a href="">Review</a>
+				
+
+				</nav>
+
+				<div class="icons">
+					
+					<img id="menubar" src="../ChefKun/Icons/menu.png" alt="menu" height="35px" width="35px">
+					<img id="searchbar" src="../ChefKun/Icons/search.png" alt="search" height="35px" width="35px">
+					<img id="formbar" src="../ChefKun/Icons/cal.png" alt="form" height="35px" width="35px">
+					<img src="../ChefKun/Icons/cart.png" alt="cart" height="35px" width="35px">
+				</div>
+
+	</section>
+
+	<!-- NAVBAR END -->
+
+	<!-- SEARCHBAR START -->
+
+	<form id="search-form">
+		<input type="search" placeholder="Search" id="search-bar" name="">
+		<img id="search-btn" src="../ChefKun/Icons/form-search.png" alt="search" height="30px" width="30px">
+		<!-- <img id="crossbtn" src="../ChefKun/Icons/cross.png" alt="search" height="35px" width="35px"> -->
+	</form>
+
+
+	<!-- SEARCHBAR END --> 
+
+	<!-- ORDER FORM START -->
+
+	<form id="order-form">
+
+		<div id="mid">
+			<h1>ORDER NOW</h1>
+
+
+<select class="opt" name="hours">
+	<option value="Hours">Hours</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+</select>
+
+
+<select class="opt" name="numberofpeople">
+	<option value="Number of People">Number of People</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select><br>
+
+
+
+<input class="write" type="date" name="begin" 
+        placeholder="Date" value=""
+        min="2022-01-01" max="2023-01-01">
+
+
+        <input class="write"  type="text" placeholder="Phone Number" name="number"><br>
+
+        <input class="Ewrite" type="email" placeholder="Email Address" name=""><br>
+
+        <input class="order-btn" type="submit" value="Order" name="">
+
+    </div>
+    		<img id="crossbtn" src="../ChefKun/Icons/cross.png" alt="search" height="35px" width="35px">
+		
+
+	</form>
+
+
+	<!-- ORDER FORM END -->
+
+<!-- HOME SECTION START -->
+ <section class="home" id="home">
+ 	
+ 	<div class="home-slider">
+ 		
+ 		<div class="wrapper">
+
+ 			<div class="slide">
+
+ 				<div class="content2">
+
+ 				<span>CHEF'S SPECIAL</span>
+ 				<h2>Spicy Noodles</h2>
+ 				<p>This is the best food in the century,surprisingly better than McDonalds, kindly come to our resturaunt to eat.</p>
+ 				<button class="order-btn2"><a href="">ORDER NOW</a></button>
+
+               </div>
+               <div class="images">
+               	<img src="../ChefKun/images/home1.png">
+               </div>
+ 				
+ 			</div> 
+
+ 
+ 			<!-- <div class="slide">
+
+ 				<div class="content2">
+
+ 				<span>CHEF'S SPECIAL</span>
+ 				<h2>Fried Chicken</h2>
+ 				<p>This is the best food in the century,surprisingly better than McDonalds, kindly come to our resturaunt to eat.</p>
+ 				<button class="order-btn2"><a href="">ORDER NOW</a></button>
+
+               </div>
+               <div class="images">
+               	<img src="../ChefKun/images/home2.png">
+               </div>
+ 				
+ 			</div>
+
+ 			<div class="slide">
+
+ 				<div class="content2">
+
+ 				<span>CHEF'S SPECIAL</span>
+ 				<h2>Hot Pizza</h2>
+ 				<p>This is the best food in the century,surprisingly better than McDonalds, kindly come to our resturaunt to eat.</p>
+ 				<button class="order-btn2"><a href="">ORDER NOW</a></button>
+
+               </div>
+               <div class="images">
+               	<img src="../ChefKun/images/home3.png">
+               </div>
+ 				
+ 			</div> 
+ 		</div> -->
+ 	</div>
+ </section> 
+<!-- HOME SECTION END -->
+
+
+
+
+
+
+
+<script src="chef.js"></script>
+</body>
+</html>
